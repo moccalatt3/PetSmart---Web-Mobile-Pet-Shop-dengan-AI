@@ -1,6 +1,6 @@
 # PetSmart: PLATFORM PET SHOP BERBASIS WEB DAN MOBILE DENGAN FITUR AI
 
-## Deskripsi Proyek
+**Deskripsi Proyek**
 
 **PetSmart** adalah platform pet shop berbasis **web dan mobile** yang dirancang untuk memudahkan pemilik hewan peliharaan dalam mengakses produk, layanan, dan solusi cepat terhadap permasalahan kesehatan hewan melalui fitur **Kecerdasan Buatan (AI)** sederhana.
 
