@@ -14,11 +14,11 @@ Platform ini dikembangkan menggunakan metode **Agile** dan dilengkapi dengan ant
 1. Melihat statistik jumlah pengguna, transaksi, dan layanan.
 2. Mengetahui **produk top selling**.
 3. Mengelola data:
-   - Akun pengguna
-   - Produk
-   - Transaksi
-   - Layanan
-   -  Konsultasi
+  - Akun pengguna
+  - Produk
+  - Transaksi
+  - Layanan
+  - Konsultasi
 
 ### Untuk Pengguna:
 1. Membeli produk secara langsung, dimasukkan ke keranjang, dan mencetak struk belanja.
