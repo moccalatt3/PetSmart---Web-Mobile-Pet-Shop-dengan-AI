@@ -1,6 +1,6 @@
 # PetSmart: PLATFORM PET SHOP BERBASIS WEB DAN MOBILE DENGAN FITUR AI
 
-**Deskripsi Proyek**
+## Deskripsi Proyek
 
 **PetSmart** adalah platform pet shop berbasis **web dan mobile** yang dirancang untuk memudahkan pemilik hewan peliharaan dalam mengakses produk, layanan, dan solusi cepat terhadap permasalahan kesehatan hewan melalui fitur **Kecerdasan Buatan (AI)** sederhana.
 
@@ -11,20 +11,20 @@ Platform ini dikembangkan menggunakan metode **Agile** dan dilengkapi dengan ant
 ## Fitur Utama
 
 ### Untuk Admin:
-- Melihat statistik jumlah pengguna, transaksi, dan layanan.
-- Mengetahui **produk top selling**.
-- Mengelola data:
-  - Akun pengguna
-  - Produk
-  - Transaksi
-  - Layanan
-  - Konsultasi
+1. Melihat statistik jumlah pengguna, transaksi, dan layanan.
+2. Mengetahui **produk top selling**.
+3. Mengelola data:
+    - Akun pengguna
+    - Produk
+    - Transaksi
+    - Layanan
+    - Konsultasi
 
 ### Untuk Pengguna:
-- Membeli produk secara langsung, dimasukkan ke keranjang, dan mencetak struk belanja.
-- Mengakses layanan/service hewan.
-- Melakukan konsultasi seputar hewan peliharaan.
-- Menggunakan fitur **AI Diagnosis** dengan pertanyaan interaktif untuk mengetahui gejala kesehatan hewan.
+1. Membeli produk secara langsung, dimasukkan ke keranjang, dan mencetak struk belanja.
+2. Mengakses layanan/service hewan.
+3. Melakukan konsultasi seputar hewan peliharaan.
+4. Menggunakan fitur **AI Diagnosis** dengan pertanyaan interaktif untuk mengetahui gejala kesehatan hewan.
 
 ---
 
@@ -82,3 +82,24 @@ Melihat statistik dan mengelola semua data platform.
 ![Shop](public/img/shop.png)
 
 ---
+
+## Cara Menjalankan Proyek
+
+### Langkah-langkah Setup
+
+```bash
+#1.Install dependency PHP
+composer install
+
+# 2. Salin file .env
+cp .env.example .env
+
+# 3. Generate key
+php artisan key:generate
+
+# 4. Jalankan migrasi database
+php artisan migrate
+
+# 5. Jalankan server lokal
+php artisan serve
+
