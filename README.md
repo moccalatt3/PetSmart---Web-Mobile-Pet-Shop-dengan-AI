@@ -14,11 +14,11 @@ Platform ini dikembangkan menggunakan metode **Agile** dan dilengkapi dengan ant
 1. Melihat statistik jumlah pengguna, transaksi, dan layanan.
 2. Mengetahui **produk top selling**.
 3. Mengelola data:
-    - Akun pengguna
-    - Produk
-    - Transaksi
-    - Layanan
-    - Konsultasi
+   - Akun pengguna
+   - Produk
+   - Transaksi
+   - Layanan
+   -  Konsultasi
 
 ### Untuk Pengguna:
 1. Membeli produk secara langsung, dimasukkan ke keranjang, dan mencetak struk belanja.
@@ -42,44 +42,57 @@ Platform ini dikembangkan menggunakan metode **Agile** dan dilengkapi dengan ant
 ### Halaman Admin
 Melihat statistik dan mengelola semua data platform.
 
-![Admin Dashboard](public/img/admin.png)
+<img src="public/img/admin.png" alt="Admin Dashboard" width="400"/>
 
 ---
 
 ### Halaman Login & Register
 
-![Login](public/img/login.png)
-![Register](public/img/register.png)
+<img src="public/img/login.png" alt="Login" width="400"/>
+
+<img src="public/img/register.png" alt="Register" width="400"/>
 
 ---
 
 ### Halaman Home
 
-![Home](public/img/home.png)
+<img src="public/img/home.png" alt="Home" width="400"/>
 
 ---
 
 ### Halaman Layanan
 
-![Service](public/img/layanan.png)
+<img src="public/img/layanan.png" alt="Layanan" width="400"/>
 
 ---
 
 ### Halaman Konsultasi / Chat
 
-![Chat](public/img/chat.png)
+<img src="public/img/chat.png" alt="Chat" width="400"/>
 
 ---
 
 ### Halaman Diagnosis AI
 
-![Diagnosis](public/img/diagnosis.png)
+<img src="public/img/diagnosis.png" alt="Diagnosis" width="400"/>
 
 ---
 
 ### Halaman Shop & Keranjang
 
-![Shop](public/img/shop.png)
+<img src="public/img/shop.png" alt="Shop" width="400"/>
+
+---
+
+## Potensi Pengembangan Selanjutnya
+
+Beberapa fitur di platform ini dapat disempurnakan untuk meningkatkan kenyamanan dan pengalaman pengguna, seperti:
+
+1. **Integrasi Pembayaran Digital**: Menambahkan metode pembayaran modern seperti **QRIS, e-wallet (OVO, DANA, ShopeePay), dan virtual account** untuk memudahkan transaksi.
+2. **Live Chat & Notifikasi Real-time**: Integrasi WebSocket atau Firebase agar konsultasi terasa lebih langsung dan responsif.
+3. **Sistem Antrian Layanan**: Untuk layanan offline seperti grooming atau klinik, pengguna dapat mengambil nomor antrian digital.
+4. **Rekomendasi Produk Otomatis**: Memanfaatkan **machine learning** untuk memberikan saran produk berdasarkan histori transaksi atau diagnosis hewan.
+5. **Mobile App (Flutter/React Native)**: Pengembangan versi mobile native agar lebih nyaman digunakan di smartphone.
 
 ---
 
